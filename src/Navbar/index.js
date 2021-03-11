@@ -7,7 +7,7 @@ const Navbar = () => {
     <header className="sticky-top">
       <nav className="navbar navbar-expand-lg navbar-dark bg-primary ">
         <div className="container">
-          <a className="navbar-brand" href="#">
+          <a className="navbar-brand" href="/">
             Custom Navbar
           </a>
           <button
@@ -28,7 +28,7 @@ const Navbar = () => {
                   <a
                     className="nav-link active pb-0"
                     aria-current="page"
-                    href="#"
+                    href="/"
                   >
                     Home
                   </a>
@@ -37,7 +37,7 @@ const Navbar = () => {
                   <a
                     className="nav-link active pb-0"
                     aria-current="page"
-                    href="#"
+                    href="/"
                   >
                     About
                   </a>
@@ -46,7 +46,7 @@ const Navbar = () => {
                   <a
                     className="nav-link active pb-0"
                     aria-current="page"
-                    href="#"
+                    href="/"
                   >
                     Contact
                   </a>
@@ -59,7 +59,7 @@ const Navbar = () => {
                   <li className="nav-item dropdown">
                     <a
                       className="nav-link dropdown-toggle text-light"
-                      href="#"
+                      href="/"
                       id="navbarDropdown"
                       role="button"
                       data-bs-toggle="dropdown"
@@ -72,12 +72,12 @@ const Navbar = () => {
                       aria-labelledby="navbarDropdown"
                     >
                       <li>
-                        <a className="dropdown-item" href="#">
+                        <a className="dropdown-item" href="/">
                           Profile
                         </a>
                       </li>
                       <li>
-                        <a className="dropdown-item" href="#">
+                        <a className="dropdown-item" href="/">
                           Dashboard
                         </a>
                       </li>
@@ -85,7 +85,7 @@ const Navbar = () => {
                         <hr className="dropdown-divider" />
                       </li>
                       <li>
-                        <a className="dropdown-item" href="#">
+                        <a className="dropdown-item" href="/">
                           Sign Out
                         </a>
                       </li>
